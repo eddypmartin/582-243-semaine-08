@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire et tableau</title>
+	<style type="text/css">
+		label {
+			display :  block;
+			padding :  10px;
+			margin :  5px;
+			border :  1px solid #aaa;
+			border-radius :  4px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset id='lettre'>
+			<label>A<input type="checkbox" value="A"></label>
+			<label>B<input type="checkbox" value="B"></label>
+			<label>C<input type="checkbox" value="C"></label>
+			<label>D<input type="checkbox" value="D"></label>
+			<label>E<input type="checkbox" value="E"></label>
+		</fieldset>
+		
+
+	</form>
+	<script type="text/javascript">
+		var elmLettre = document.querySelectorAll('____________________________')
+		console.log(elmLettre._________________________)
+		for (var k=0 ; k<elmLettre.________________________ ; k++)
+		{
+			// la fonction de rappel est une fonction anonyme
+			elmLettre[k].______________________('_____________________', function(){
+				// this représente l'objet du DOM qui subit l'événement
+				console.log(____________________.value)
+				console.log(__________________.checked)
+				console.log(__________________.tagName)
+			})
+		}
+
+
+
+	</script>
+</body>
+</html>

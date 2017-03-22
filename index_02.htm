@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire et tableau</title>
+	<style type="text/css">
+		label {
+			display :  block;
+			padding :  10px;
+			margin :  5px;
+			border :  1px solid #aaa;
+			border-radius :  4px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset id='lettre'>
+			<label>A<input type="checkbox" value="0"></label>
+			<label>B<input type="checkbox" value="1"></label>
+			<label>C<input type="checkbox" value="2"></label>
+			<label>D<input type="checkbox" value="3"></label>
+			<label>E<input type="checkbox" value="4"></label>
+		</fieldset>
+	</form>
+	<script type="text/javascript">
+		var elmLettre = document.querySelectorAll(_________________________')
+		console.log(elmLettre._____________________)
+		for (var k=0 ; k<elmLettre.length ; k++)
+		{
+			// pour simplifier la structure et éviter les imbrication compliquée
+			// on utilise une fonction de rappel  défini ailleur
+			elmLettre[k].addEventListener('click', ____________________________)
+		}
+
+		// voici la fonction de rappel
+		/*
+La technique de la fonction de rappel s'inspire du principe d'Hollywood (ou Inversion de contrôle) où l'appelant laisse ses coordonnées pour pouvoir être rappelé par la suite. L'intérêt est le passage à un modèle événementiel et modulaire.
+		*/
+		function ___________________________{
+
+				console.log(_________________value)
+				console.log(________________checked)
+				console.log(___________________________tagName)
+
+		}
+
+
+
+	</script>
+</body>
+</html>
